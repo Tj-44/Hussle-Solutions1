@@ -1,4 +1,3 @@
-
 import './App.css';
 
 function App() {
@@ -35,8 +34,14 @@ function App() {
             </ol>
           </section>
         </div>
+
         <div className="text-center mt-12">
-          <a href="#" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-medium shadow hover:bg-blue-700 transition">
+          <a
+            href="https://calendly.com/taranjit-a/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-medium shadow hover:bg-blue-700 transition"
+          >
             Book Your Free Demo
           </a>
         </div>
@@ -50,3 +55,4 @@ function App() {
 }
 
 export default App;
+
